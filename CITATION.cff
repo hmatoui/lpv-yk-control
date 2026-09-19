@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: "LPV-YK Control: Multiple LPV Controllers with Youla-Kucera Parametrization"
+message: "If you use this software, please cite both the software and the paper it implements."
+type: software
+authors:
+  - family-names: Atoui
+    given-names: Hussam
+    affiliation: "Renault SAS"
+  - family-names: Sename
+    given-names: Olivier
+    affiliation: "Univ. Grenoble Alpes, CNRS, Grenoble INP, GIPSA-lab"
+  - family-names: Milanés
+    given-names: Vicente
+    affiliation: "Renault SAS"
+  - family-names: Martinez
+    given-names: John-Jairo
+    affiliation: "Univ. Grenoble Alpes, CNRS, Grenoble INP, GIPSA-lab"
+license: MIT
+repository-code: "https://github.com/<your-username>/LPV-YK-Control"
+abstract: >-
+  MATLAB reference implementation of two LPV-Youla-Kucera control
+  architectures that guarantee smooth, unconstrained switching between
+  multiple independently designed LPV controllers: a grid-based scheme
+  using parameter-dependent Lyapunov certificates, and a partitioned
+  polytopic scheme using trajectory-aligned convex subsets with shared
+  boundary controllers. Validated experimentally on the lateral control
+  of an autonomous Renault ZOE.
+keywords:
+  - linear parameter-varying
+  - Youla-Kucera parametrization
+  - switching control
+  - robust control
+  - linear matrix inequalities
+  - autonomous vehicles
+  - lateral control
+preferred-citation:
+  type: article
+  title: >-
+    Advanced Design of Multiple LPV Controllers with Youla-Kucera
+    Parametrization: Real-world Validation on Autonomous Vehicles
+  authors:
+    - family-names: Atoui
+      given-names: Hussam
+    - family-names: Sename
+      given-names: Olivier
+    - family-names: Milanés
+      given-names: Vicente
+    - family-names: Martinez
+      given-names: John-Jairo
+  # TODO: complete journal, volume, pages, year and DOI on publication

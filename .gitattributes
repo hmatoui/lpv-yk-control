@@ -1,0 +1,17 @@
+# Treat MATLAB sources as text with normalized line endings
+*.m       text diff=matlab
+*.md      text
+*.cff     text
+*.yml     text
+
+# Binary formats - never diff or merge these
+*.mat     binary
+*.slx     binary
+*.mdl     binary
+*.mexw64  binary
+*.fig     binary
+*.png     binary
+*.pdf     binary
+
+# Language statistics: count this as MATLAB, not Objective-C
+*.m linguist-language=MATLAB
